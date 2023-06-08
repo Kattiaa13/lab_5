@@ -1,0 +1,96 @@
+.header {
+  width: 100%;
+  min-height: 600px;
+  background: linear-gradient(0deg,rgba(87, 40, 22, 0), rgba(87, 40, 22, 1)), url('../assets/header_bg.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.headerContainer {
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.headerTop {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.headerNavList {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.headerNavItem {
+  padding: 0;
+  margin: 0;
+  font-family: 'Comfortaa';
+  font-weight: 400;
+  font-size: 22px;
+  color: rgba(255, 235, 211, 1);
+  margin-right: 60px;
+}
+
+.headerNavItemContact {
+  padding-left: 450px;
+  font-family: 'Comfortaa';
+  font-weight: 400;
+  font-size: 22px;
+  color: rgba(255, 235, 211, 1);
+}
+
+.headerNavItem:last-child {
+  margin-right: 0;
+}
+
+.buttonImage {
+  padding-left: 10px;
+}
+
+.headerTitle {
+  padding-bottom: 100px;
+  margin: 0;
+  font-family: 'Meow Script';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 128px;
+  color: rgba(255, 235, 211, 1);
+  margin: auto;
+}
+
+.logo {
+  padding-right: 50px;
+}
+
+.headerLink {
+  font-weight: 400;
+  font-size: 18px;
+  text-decoration-line: underline;
+  color: #FFFFFF;
+  padding: 0;
+  margin: 0;
+}
+
+.headerBurgerButton {
+  color: #fff;
+  font-size: 32px;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  border: none;
+  background: transparent;
+  position: absolute;
+  cursor: pointer;
+  left: 0;
+}

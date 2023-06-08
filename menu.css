@@ -1,0 +1,76 @@
+.menu {
+  width: 100%;
+  background: #FFF6EB;;
+  min-height: 700px;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 115px;
+}
+
+.menuContainer {
+  width: 1110px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.menuBox {
+  height: 400px;
+  padding-left: 58px;
+  padding-right: 58px;
+  background: #C0A38D;
+  border-radius: 15px;
+}
+
+.menuItems {
+  height: 350px;
+  padding-top: 50px;
+}
+
+.menuElements {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.menuTitle {
+  font-family: 'Comfortaa';
+  font-weight: 400;
+  font-size: 48px;
+  color: rgba(72, 33, 18, 1);
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 76px;
+}
+
+.menuText {
+  font-family: 'Comfortaa';
+  font-weight: 400;
+  font-size: 22px;
+  color: 482112;
+ 
+  padding-left: 33px;
+  padding-right: 30px;
+  display: flex;
+}
+
+.pizza {
+  margin-right: 58px;
+  font-family: 'Comfortaa'; 
+}
+
+.bread {
+  margin-right: 100px;
+  font-family: 'Comfortaa'; 
+}
+
+.coffee {
+  margin-right: 153px;
+  font-family: 'Comfortaa'; 
+}
+
+.smoothy {
+  font-family: 'Comfortaa'; 
+}
